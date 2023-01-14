@@ -1,0 +1,29 @@
+:root {
+    --beige: rgba(255, 144, 14, 0.1);
+    --orange: #FF900E;
+    --black:  #424242;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*------------------- 
+    header-container
+--------------------*/
+header {
+    background-color: var(--beige) 
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-left: 228px;
+    margin-right: 240px;
+}
+nav > ul {
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
