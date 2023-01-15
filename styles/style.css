@@ -10,75 +10,93 @@
 * {
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 0;
-    max-width: 1450px;
+    padding: 0 auto;
+    max-width: 1920px;
     font-family: 'Work Sans', sans-serif;
 }
+
 /*------------------- 
     header-container
 --------------------*/
 header {
     background-color: var(--beige); 
-    align-items: center;
+    
     
 }
 nav {
     display: flex;
-    
     justify-content: space-between;
     padding-top: 50px;
 }
 nav > ul {
     display: flex;
     list-style: none;
-    gap: 70px;
+    
 }
 
 nav > ul > li {
     font-weight: 500;
+    margin-left: 70px;
     font-size: 18px;
     color: var(--black1);
 }
 
 /* banner-section */
 .banner{
-    align-items: center;
+    
 }
 .banner-title-description{
     padding-top: 102px;
-    
     text-align: center;
+    
+}
+.banner-description{
+    padding: 33px 0;
 }
 .banner-image > img {
    width: 100%;
    padding: 47px 240px;
 }
-.Features{
+/*-------------------
+    main-container
+-------------------*/
+.Features {
     display: flex;
     margin-top: 85px;
-    gap: 30px;
+    margin-bottom: 130px;
     
+    gap: 73px;
     align-items: center;
-
+    padding-right: 300px;
+    padding-left: 300px;
 }
+.Features > div {
+    flex: 1;
+}
+
 .Photos{
-    background-color: aqua;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-
-    
-    
+    gap: 24px;  
 }
+
 .photo > img{
-    height: 342px;
-    width: 342px;
+    width: 100%;
+    height: 100%;
     
 }
-.text{
-    background-color: #FF900E;
+.features-text-area{
+    height: 100%;
+    width: 100%;
 }
-
+.feature-title{
+    font-weight: 500;
+    font-size: 45px;
+}
+.feature-description{
+    margin-top: 24px;
+    margin-bottom: 33px;
+}
 .button-primary{
     padding: 20px 25px;
     border: none;
@@ -86,6 +104,112 @@ nav > ul > li {
     background-color: #FF900E;
 
 }
-.dydu{
+.love-enjoy{
+    padding:0 240px;
     display: flex;
+    
+    gap: 54px;
+    
 }
+.love-enjoy > div{
+    flex: 1;
+}
+
+.love-enjoy-title{
+    font-weight: 700;
+    font-size: 45px;
+    border-left: 3px solid firebrick;
+}
+.love-enjoy-description{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+.all-card{
+    
+}
+.card{
+    margin: 20px 0;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    background-color: var(--white);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+}
+.card-title{
+    font-weight: 600;
+    font-size: 20px;
+}
+.card-description{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.love-enjoy-photo > img{
+    width: 100%;
+    height: 100%;
+}
+.btn{
+    background-color: #FF900E;
+    height: 50px;
+    position: absolute;
+}
+/* some-facts */
+.some-facts{
+    margin-left: 240px;
+}
+.some-facts-title{
+    margin-top: 130px;
+    
+    
+}
+
+.some-facts-description{
+    margin-top: 24px;
+    margin-bottom: 100px;
+}
+.icon{
+    
+    display: flex;
+    align-items: center;
+    margin-bottom: 180px;
+}
+.ico{
+    
+    align-items: center;
+    padding: 35px 50px;
+}
+.ico > .count, .awards{
+
+    text-align: center;
+}
+/* sponpspors */
+.sponspors{
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+.spondpors-description{
+    margin-top: 24px;
+}
+.spond{
+    
+    margin: 0 auto;
+    padding-left: 240px;
+}
+footer{
+    margin-top: 130px;
+    margin-bottom: 216px;
+    text-align: center;
+    background-color:antiquewhite;
+    padding: 38px 410px;
+    height: 100px;
+    width: 1140px;
+    
+}  
+/*--------------- 
+    footer-container
+---------------------*/
